@@ -5,7 +5,7 @@ accountcity = "jaipur"
 let accountState // if there is no assignment to variable ,then value will be undefined
 
 //accountId= 2 //assignment to const is not allowed
-accountEmail = "test0914@gmail.com"
+accountEmail = "test0914@gmail.com"// varaible with var can be re-declare and reintialize 
 {
    let accountEmail1 = "test1234@gmail.com"
    var accountPassword = "abs1123"
