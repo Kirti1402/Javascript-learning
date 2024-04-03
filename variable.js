@@ -21,5 +21,5 @@ console.table([accountEmail,accountId,accountPassword,accountcity,accountState])
 
 /*
 Prefer not to use var
-because issue with block scope
+because  of issue with block scope
 */
