@@ -20,7 +20,7 @@ let logedIn = false
 
 //Object
 
-console.log(typeof(3))
-console.log(typeof(name))
-console.log(typeof(null))
-console.log(typeof(undefined))
+console.log(typeof(3)) //number
+console.log(typeof(name)) //string
+console.log(typeof(null)) //object
+console.log(typeof(undefined)) //undefined
