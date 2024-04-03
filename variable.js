@@ -1,11 +1,11 @@
 const accountId = 1;
-let accountEmail = "test123@gmail.com"
-var accountPassword = "123456"
+let accountEmail = "test123@gmail.com" // variable with let can only be re-initialize
+var accountPassword = "123456" // varaible with var can be re-declare and reintialize 
 accountcity = "jaipur" 
 let accountState // if there is no assignment to variable ,then value will be undefined
 
 //accountId= 2 //assignment to const is not allowed
-accountEmail = "test0914@gmail.com"// varaible with var can be re-declare and reintialize 
+accountEmail = "test0914@gmail.com"
 {
    let accountEmail1 = "test1234@gmail.com"
    var accountPassword = "abs1123"
