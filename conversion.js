@@ -13,3 +13,14 @@ let scoreConversion = Number(score) //idealy js schould not convert this input t
 console.log(typeof scoreConversion) // number
 console.log(scoreConversion) //NAN => as input is non numric string and it cant be parsed so result is NAN
 
+let bool = 1;
+
+let boolConversion = Boolean(bool)
+console.log(typeof boolConversion)
+console.log(boolConversion)
+
+let emptyString = ""
+let emptyStringConversion = Boolean(emptyString)
+console.log(typeof emptyStringConversion)
+console.log(emptyStringConversion)
+
