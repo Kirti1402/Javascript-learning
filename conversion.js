@@ -24,3 +24,7 @@ let emptyStringConversion = Boolean(emptyString)
 console.log(typeof emptyStringConversion)
 console.log(emptyStringConversion)
 
+let string = "33"
+let stringConversion= String(string)
+console.log(typeof stringConversion)
+console.log(stringConversion)
