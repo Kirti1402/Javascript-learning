@@ -18,3 +18,31 @@ const myFunction = ()=>{
 console.log("array", typeof heros) // Object
 console.log("object", typeof heroDetail) //Object
 console.log("myFunction", typeof myFunction) //function Object
+
+
+//****************memory in javascript */
+
+// stack => primitive call by value
+//heap => non-primitive call by reference 
+
+let a =  "hello"
+
+let b = a
+
+console.log(a, b)
+
+b = "sql"
+
+console.log(a,b)
+
+let user1 = {
+    name:"abc",
+    id:123
+}
+
+let user2 = user1
+
+console.log(user1, user2)
+
+user2.name = "xyz"
+console.log(user1, user2)
