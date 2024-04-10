@@ -61,3 +61,4 @@ console.log(Object.keys(SocialUsers[0]));//[ 'id', 'app' ]
 console.log(Object.values(SocialUsers[0]));//[ 1, 'facebook' ]
 console.log(Object.entries(SocialUsers[0]));//[ [ 'id', 1 ], [ 'app', 'facebook' ] ] converted to array
 console.log(SocialUsers[1].hasOwnProperty('id'))//true
+
