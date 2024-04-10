@@ -17,6 +17,16 @@ console.log(user["full name"])
 user.name = "Kittu"
 console.log(user)
 
-Object.freeze(user)// to freeze he Object
-user.name = "Kittuda"
-console.log(user)
+// Object.freeze(user)// to freeze he Object
+// user.name = "Kittuda"
+// console.log(user)
+
+user.greeting =  ()=>{
+    console.log("hello I am greeting function")
+}
+
+console.log(user.greeting)// will return reference output: [Function (anonymous)]
+console.log(user.greeting())
+// output:hello I am greeting function
+//undefined
+//When a function in JavaScript doesn't have a return statement, it implicitly returns undefined.
