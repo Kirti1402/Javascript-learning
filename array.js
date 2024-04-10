@@ -52,3 +52,5 @@ console.log(array)//[ 'morning', 'hi', 'iron man' ] does not change original arr
 console.log(array.splice(0,1))//[ 'morning' ]
 console.log(array)//[ 'hi', 'iron man' ] , change the original array
 
+console.log(array.toString())// output : hi,iron man
+
