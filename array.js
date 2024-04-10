@@ -31,4 +31,24 @@ console.log(iterator1.next().value);//[[ 1, 'hi' ]
 //The every() method of Array instances tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
 const array1 = [1, 30, 39, 29, 10, 13,45];
 const isBelowThreshold = (currentValue) => currentValue < 40;
-console.log(array1.every(isBelowThreshold));//false
+console.log(array1.every(isBelowThreshold));//false 
+
+// The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.
+console.log("Array from method",Array.from("foo"))//[ 'f', 'o', 'o' ]
+console.log(Array.from([1,2,3,4],x => x+x))//[ 2, 4, 6, 8 ]
+
+//The Array.isArray() static method determines whether the passed value is an Array.
+console.log(Array.isArray(array))//true
+
+console.log(array.pop()) // last element will removed from array , output : hi
+console.log(array) //changes the original array , output :[ 'morning', 'hi' ]
+
+console.log("array push",array.push("iron man"))// will return the index and element will pushed to the last in array ,output: array push 3
+console.log(array)//[ 'morning', 'hi', 'iron man' ]
+
+console.log(array.slice(0,1))//[ 'morning' ] 
+console.log(array)//[ 'morning', 'hi', 'iron man' ] does not change original array
+
+console.log(array.splice(0,1))//[ 'morning' ]
+console.log(array)//[ 'hi', 'iron man' ] , change the original array
+
