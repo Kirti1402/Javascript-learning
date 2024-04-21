@@ -12,10 +12,14 @@ In such cases, ASI may not insert semicolons where you expect, leading to errors
     */
 (function iife() {
     console.log("iife")
-})()
+})();
 
 /*
 output :
 DB Connected
 iife 
 */
+
+(()=>{
+    console.log("hellow I am arrow function")
+})()
